@@ -20,7 +20,8 @@ print(logo)
 display = []
 for _ in range(word_length):
     display += "_"
-guessed_letter =[]
+print(display)
+print("\n")
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
     #system("cls")
